@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Container from '../components/container'
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
+import Header from '../components/header'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import { BLOG_TITLE } from '../lib/constants'
@@ -18,7 +18,7 @@ export default function Index({ allPosts }) {
                     <title>{BLOG_TITLE}</title>
                 </Head>
                 <Container>
-                    <Intro />
+                    <Header />
                     {heroPost && (
                         <HeroPost
                             title={heroPost.title}

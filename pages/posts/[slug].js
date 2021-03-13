@@ -11,11 +11,12 @@ import Head from 'next/head'
 import { BLOG_TITLE } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 
-export default function Post({ post, morePosts }) {
+export default function Post({ post }) {
     const router = useRouter()
     if (!router.isFallback && !post?.slug) {
         return <ErrorPage statusCode={404} />
     }
+
     return (
         <Layout>
             <Container>

@@ -23,13 +23,10 @@ export default function Footer() {
                             </a>
                         </Link>
                         {/* TODO:
-                        
-                        - add page for "take action"
-                        - add page for "learn more"
+
                         - add intro about me
                         tudelinoodlez@tuta.io
 
-                        - remove post author
                         - move up date above main post image
 
                         */}

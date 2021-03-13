@@ -1,5 +1,6 @@
 import Container from './container'
 import { EXAMPLE_PATH } from '../lib/constants'
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -12,16 +13,16 @@ export default function Footer() {
                         What's your next move?
                     </h3>
                     <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-                        <a
-                            href="https://nextjs.org/docs/basic-features/pages"
-                            className="mx-4 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0">
-                            I want to take action
-                        </a>
-                        <a
-                            href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                            className="mx-4 font-bold hover:underline">
-                            I want to learn more
-                        </a>
+                        <Link href="/action">
+                            <a className="mx-4 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0">
+                                I want to take action
+                            </a>
+                        </Link>
+                        <Link href="/info">
+                            <a className="mx-4 font-bold hover:underline">
+                                I want to learn more
+                            </a>
+                        </Link>
                         {/* TODO:
                         
                         - add page for "take action"

@@ -4,8 +4,8 @@ excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2021-02-06T05:35:07.322Z'
 author:
-    name: Samuel Plumppu
-    picture: '/assets/blog/authors/samuel.png'
+    name: Tim Neutkens
+    picture: '/assets/blog/authors/tim.jpeg'
 ogImage:
     url: '/assets/blog/hello-world/cover.jpg'
 ---

@@ -2,13 +2,15 @@ import { LOCALE } from '../lib/constants'
 
 export default function DateFormatter({ dateString }) {
     const options = { month: 'long', day: 'numeric', year: 'numeric' }
-    const date = new Date(dateString)
-    const americanDate = new Intl.DateTimeFormat(LOCALE, options).format(date)
+    const formatted = new Intl.DateTimeFormat(LOCALE, options).format(
+        new Date(dateString),
+    )
     return (
         <time
             dateTime={dateString}
-            className="uppercase tracking-wider text-sm">
-            {americanDate}
+            className="uppercase tracking-wider text-sm"
+        >
+            {formatted}
         </time>
     )
 }

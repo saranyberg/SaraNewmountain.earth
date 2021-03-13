@@ -1,13 +1,10 @@
 ---
-title: 'A new beginning - 2021 edition'
+title: 'My first post'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2021-02-06T05:35:07.322Z'
-author:
-    name: Tim Neutkens
-    picture: '/assets/blog/authors/tim.jpeg'
+coverImage: '/Countryside road.jpg'
+date: '2021-03-13T18:43:15.208Z'
 ogImage:
-    url: '/assets/blog/hello-world/cover.jpg'
+    url: '/Countryside road.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

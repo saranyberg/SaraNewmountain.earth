@@ -3,18 +3,20 @@
 ## Requirements
 
 -   Git `git --version`
--   Node.js + npm `node -v`, `npm -v`
+-   Node.js + npm. Type `node -v`, `npm -v` to see which version is installed.
 
 ## Setup for local development
 
 1. `npm install`
 2. `npm run dev`
 
+Don't need to do this to work locally and save CPU on the computer.
+
 ## Publish a new version
 
 1. Stage changes for commit (+)
 2. Write commit message and commit (✓)
-3. Push to GitHub to automatically publish webpage (⬆)
+3. Push to GitHub to automatically publish webpage (circular arrow)
 
 ---
 
@@ -34,5 +36,7 @@ Find date in ISO format:
 
 ## About different words
 
-excerpt: ...
-ogImage: image which is shown when you share a post
+-   **excerpt**: what is shown on the main page, and when you share a post
+-   **title**: seen on the main page, in the tab in the web browser and when you share a post
+-   **public folder**: contains amongst others pictures used on the blog, a tip to use pictures from climatevisuals.org
+-   **ogImage**: image which is shown when you share a post

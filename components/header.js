@@ -5,7 +5,7 @@ import MobileMenu from './MobileMenu'
 
 export default function Header() {
     return (
-        <header className="w-full mb-8 md:mb-12 bg-green-500 shadow-lg text-white">
+        <header className="w-full mb-8 md:mb-12 bg-green-700 shadow-lg text-white">
             <div className="container text-center flex items-center justify-between mx-auto p-4">
                 <Link href="/">
                     <a className="text-5xl -mt-4">🏔</a>

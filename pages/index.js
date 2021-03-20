@@ -17,8 +17,8 @@ export default function Index({ allPosts }) {
                 <Head>
                     <title>{BLOG_TITLE}</title>
                 </Head>
+                <Header />
                 <Container>
-                    <Header />
                     {heroPost && (
                         <HeroPost
                             title={heroPost.title}

@@ -12,8 +12,8 @@ export default function TakeAction() {
                 <Head>
                     <title>{BLOG_TITLE}</title>
                 </Head>
+                <Header />
                 <Container>
-                    <Header />
                     <article className="prose lg:prose-xl mx-auto">
                         <h1>Take action!</h1>
                         <p>very informative, indeed.</p>

@@ -12,8 +12,8 @@ export default function LearnMore() {
                 <Head>
                     <title>{BLOG_TITLE}</title>
                 </Head>
+                <Header />
                 <Container>
-                    <Header />
                     <article className="mb-32 prose lg:prose-xl mx-auto">
                         <h1>About me</h1>
                         <p>

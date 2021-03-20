@@ -3,6 +3,7 @@
 Shift+control+hatt - för att öppna terminalfönster
 Command+P i VS Code, för att snabbt söka och öppna en fil
 Cmd + Shift + F – sök i hela mappen (ej bara i dokumentet)
+Cmd + Shift + 7 - kommentera ut något, eller kommentera in igen (så att kod inte läses in)
 
 # Tips för att använda VS Code
 

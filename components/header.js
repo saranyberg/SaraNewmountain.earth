@@ -3,24 +3,20 @@ import Link from 'next/link'
 import { BLOG_NAME, BLOG_TAGLINE } from '../lib/constants'
 import MobileMenu from './MobileMenu'
 
-const backgrounds = {
-    green: 'bg-gradient-to-bl from-green-200 to-green-500',
-    transparent: '',
-}
-
-export default function Header({ bg = 'green' }) {
-    const background = backgrounds[bg]
+export default function Header() {
     return (
-        <header className={`w-full mb-8 md:mb-12 ${background} shadow-lg`}>
+        <header className="w-full mb-8 md:mb-12 bg-green-500 shadow-lg text-white">
             <div className="container text-center flex items-center justify-between mx-auto p-4">
-                <span className="text-5xl -mt-4">🏔</span>
+                <Link href="/">
+                    <a className="text-5xl -mt-4">🏔</a>
+                </Link>
                 <div>
-                    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight">
+                    <h2 className="text-3xl md:text-4xl font-thin tracking-wide">
                         <Link href="/">
                             <a className="hover:underline">{BLOG_NAME}</a>
                         </Link>
                     </h2>
-                    <p className="mt-2 text-sm md:text-md lg:text-lg italic">
+                    <p className="mt-2 text-xs md:text-sm lg:text-md italic font-thin tracking-widest">
                         {BLOG_TAGLINE}
                     </p>
                 </div>

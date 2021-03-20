@@ -27,10 +27,14 @@ const MobileMenu = () => {
         </li>
     ))
 
+    const onMenuToggle = () => {
+        document.querySelector('button.hamburger').classList.toggle('is-active')
+    }
+
     return (
-        <Wrapper className="">
+        <Wrapper className="" onMenuToggle={onMenuToggle}>
             <Button className="">
-                <button className="hamburger hamburger--slider" type="button">
+                <button className="hamburger hamburger--spring" type="button">
                     <span className="hamburger-box">
                         <span className="hamburger-inner"></span>
                     </span>

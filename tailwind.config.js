@@ -16,5 +16,11 @@ module.exports = {
             black: colors.black,
         },
     },
+    variants: {
+        extend: {
+            translate: ['hover'],
+            transform: ['hover'],
+        },
+    },
     plugins: [require('@tailwindcss/typography')],
 }

@@ -20,9 +20,16 @@ const MobileMenu = () => {
     ]
 
     const menuItems = menuItemData.map((item, i) => (
-        <li key={i}>
-            <MenuItem className="">
-                <Link href={item.href}>{item.text}</Link>
+        <li key={i} className="w-full">
+            <MenuItem className="w-full border-b border-white">
+                <Link href={item.href}>
+                    <a
+                        className="hover:-translate-x-3 duration-200 ease-out transform hover:underline outline-none text-2xl w-full block py-4"
+                        style={{ outline: 'none' }}
+                    >
+                        {item.text}
+                    </a>
+                </Link>
             </MenuItem>
         </li>
     ))
@@ -32,11 +39,11 @@ const MobileMenu = () => {
     }
 
     return (
-        <Wrapper className="" onMenuToggle={onMenuToggle}>
-            <Button className="">
+        <Wrapper onMenuToggle={onMenuToggle}>
+            <Button className="z-30 relative">
                 <button
-                    className="hamburger hamburger--spring"
-                    style={{ padding: '0' }}
+                    className="hamburger hamburger--spring outline-none border-none"
+                    style={{ padding: '0', outline: 'none' }}
                     type="button"
                 >
                     <span className="hamburger-box">
@@ -44,9 +51,12 @@ const MobileMenu = () => {
                     </span>
                 </button>
             </Button>
-            <Menu className="">
-                <ul>{menuItems}</ul>
-            </Menu>
+            <Menu>{/* <ul>{menuItems}</ul> */}</Menu>
+            <div className="h-screen bg-green-700 shadow-2xl z-20 w-96 fixed top-0 right-0 transform transition-transform text-right pt-24 p-8">
+                <ul className="w-full mt-1 border-t border-white">
+                    {menuItems}
+                </ul>
+            </div>
         </Wrapper>
     )
 }

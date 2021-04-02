@@ -20,6 +20,7 @@ module.exports = {
         extend: {
             translate: ['hover'],
             transform: ['hover'],
+            backgroundImage: ['hover'],
         },
     },
     plugins: [require('@tailwindcss/typography')],

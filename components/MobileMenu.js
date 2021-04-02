@@ -21,10 +21,10 @@ const MobileMenu = () => {
 
     const menuItems = menuItemData.map((item, i) => (
         <li key={i} className="w-full">
-            <MenuItem className="w-full border-b border-white">
+            <MenuItem className="w-full border-b border-white hover:bg-gradient-to-l hover:from-green-600 hover:to-green-700">
                 <Link href={item.href}>
                     <a
-                        className="hover:-translate-x-3 duration-200 ease-out transform hover:underline outline-none text-2xl w-full block py-4"
+                        className="hover:-translate-x-3 duration-200 ease-out transform outline-none text-2xl w-full block py-4"
                         style={{ outline: 'none' }}
                     >
                         {item.text}

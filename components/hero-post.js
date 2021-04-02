@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function HeroPost({ title, coverImage, date, excerpt, slug }) {
     return (
         <section>
-            <div className="mb-8 md:mb-16">
+            <div className="mb-8 md:mb-16 max-w-3xl mx-auto">
                 <CoverImage
                     title={title}
                     src={coverImage}

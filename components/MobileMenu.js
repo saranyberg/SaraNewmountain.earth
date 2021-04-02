@@ -51,12 +51,11 @@ const MobileMenu = () => {
                     </span>
                 </button>
             </Button>
-            <Menu>{/* <ul>{menuItems}</ul> */}</Menu>
-            <div className="h-screen bg-green-700 shadow-2xl z-20 w-96 fixed top-0 right-0 transform transition-transform text-right pt-24 p-8">
+            <Menu className="h-screen bg-green-700 shadow-2xl z-20 w-96 fixed top-0 right-0 transform transition-transform text-right pt-24 p-8">
                 <ul className="w-full mt-1 border-t border-white">
                     {menuItems}
                 </ul>
-            </div>
+            </Menu>
         </Wrapper>
     )
 }

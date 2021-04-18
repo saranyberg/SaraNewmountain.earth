@@ -30,6 +30,14 @@ och så vidare
 4. nummer fyra
 5. nummer fem
 
+\* backslash för att göra kommande tecken till literal character (sp att det blir en stjärna och inte en punktlista)
+
+---
+
+Hur infoga en länk? [About me](https://saranewmountain.earth/about-me)
+
+Hur infoga bilder löpande i texten? ![bild på träd](http://www.takepart.com/sites/default/files/tree-promo.jpg)
+
 ---
 
 streck över hela delen, ny sektion

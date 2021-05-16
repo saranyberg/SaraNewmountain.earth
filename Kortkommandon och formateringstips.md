@@ -32,6 +32,8 @@ och så vidare
 
 \* backslash för att göra kommande tecken till literal character (sp att det blir en stjärna och inte en punktlista)
 
+/\* för att kommentera bort??
+
 ---
 
 Hur infoga en länk? [About me](https://saranewmountain.earth/about-me)

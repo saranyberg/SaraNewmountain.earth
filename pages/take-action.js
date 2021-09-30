@@ -40,6 +40,7 @@ export default function TakeAction() {
                             <li>1. Vote for a greener party!</li>
                             <li>2. Get engaged in a party - all parties need to become greener!</li>
                             <li>3. Put forward a suggestion - in Sweden you can put forward a citizens' suggestion (Medborgarförslag) or similar, for which you can gather votes and it can be brought up in the municipality.</li>
+                         </ul>
                     </article>
                 </Container>
             </Layout>

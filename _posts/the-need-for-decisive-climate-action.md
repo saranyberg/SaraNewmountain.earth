@@ -1,19 +1,18 @@
 ---
 title: 'The need for decisive climate action'
 excerpt: 'Warm welcome to my website and my first post! My name is Sara Nyberg and I am very excited to share my knowledge and thoughts about climate and other environmental topics. I will not only write facts from climate science and show what causes how much emissions and deep dive into certain topics or technologies, but also have a big focus on how you can get involved and take climate action: both as an individual, consumer, employee and as a citizen.'
-coverImage: '/Jotunheimen_Besseggen.jpg'
-date: '2021-09-30T18:43:15.208Z'
+coverImage: '/assets/images/IMG_2695.JPG'
+date: '2021-10-07T18:43:15.208Z'
 ogImage:
-    url: '/Jotunheimen_Besseggen.jpg'
+    url: '/assets/images/IMG_2695.JPG'
 ---
 
-Hello world! (cheesy? för programmerings-språkigt?)
-Warm welcome to my website and my first post! My name is Sara Nyberg and I'm very excited to share my knowledge and thoughts about climate and other environmental topics. Read about who I am on the page [About me](https://saranewmountain.earth/about-me). I will not only write facts from climate science and show what causes how much emissions and deep dive into certain topics or technologies, but also have a big focus on how you can get involved and take climate action: both as an individual, consumer, employee and as a citizen. I hope that you will learn something and get inspiration to take more action - yourself, but also together with other people.
+Warm welcome to my website and my first post! My name is Sara Nyberg and I'm very excited to share my knowledge and thoughts about climate and other environmental topics. Read about who I am on the page [About me](https://saranewmountain.earth/about-me). I will write facts from climate science and show what causes how much emissions and deep dive into certain topics or technologies. I will also have a big focus on how you can get involved and take climate action: as an individual, consumer, employee and as a citizen. I hope that you will learn something and get inspiration to take more action - yourself, and with other people.
 I plan to write something once per week, so follow me on social media ([LinkedIn](https://www.linkedin.com/in/sara-newmountain/), [Instagram](https://www.instagram.com/sara.newmountain/) and [Twitter](https://twitter.com/saranewmountain)) to know when I publish the next post!
 
 ## Why do I want to start to write about environmental and sustainability topics?
 
-I have been engaged in the environmental movement for quite exactly ten years and have learned a lot during this time. Since more people need to know more about the climate crisis and the solutions, to act upon it, I want to share my knowledge about it - see the page [Learn more!](/learn-more). I also want to share tips on how to get engaged, to do something to contribute to a more sustainable future - see the page [Take Action!](/take-action).
+I have been engaged in the environmental movement for quite exactly ten years and have learned a lot during this time. Since more people need to know more about the climate crisis and the solutions, to act upon it, I want to share my knowledge about it - see the page [Learn more!](/learn-more) I also want to share tips on how to get engaged, to do something to contribute to a more sustainable future - see the page [Take Action!](/take-action)
 
 Through my texts I want to help others to:
 
@@ -44,7 +43,7 @@ We have many crises to tackle, but one can only do so much with one's time. I'm 
 
 The thought target group for my posts are young people/young adults, since most people in my network who I currently reach out to are around my age. However, it can be read by people of any age. Regarding engagement level, I mainly want to reach out to people who are aware of the climate issues, who take some actions to reduce their carbon footprint, but who don't know much more and who aren't engaged. Secondly, I target people who know a bit more about the climate topics and are a bit engaged, but who would like to do more.
 
-I want to write regularly and aim to publish a post once per week. However, I do this in my free time, so other things might need to be prioritised at times. The concept might change over time as I develop the website. I have four categories: Get involved/engaged!; Knowing the facts; Take action!;(Inner/deeper) transformation; and Understand?/ Explained.
+I want to write regularly and aim to publish a post once per week. However, I do this in my free time, so other things might need to be prioritised at times. The concept might change over time as I develop the website. I plan to write posts within the five following categories: Get involved!, Knowing the facts, Take action!, Inner transformation and Zooming in.
 
 Note that I am writing on this website in a personal capacity. I do not necessarily reflect the opinion of my employer South Pole. However, the vision of the company is "Climate action for all" and the mission "We accelerate the transition to a climate-smart society" which is fully in line with my own aims.
 

@@ -10,8 +10,6 @@ export default function PostHeader({ title, coverImage, date }) {
                 <CoverImage
                     title={title}
                     src={coverImage}
-                    height={620}
-                    width={1240}
                 />
             </div>
             <div className="max-w-2xl mx-auto">

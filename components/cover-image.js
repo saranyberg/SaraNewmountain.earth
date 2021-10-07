@@ -1,19 +1,22 @@
 import cn from 'classnames'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
-export default function CoverImage({ title, src, slug, height, width }) {
+export default function CoverImage({ title, src, slug, height, width, layout = 'responsive' }) {
     const image = (
-        <Image
-            src={src}
-            alt={`Cover Image for ${title}`}
-            className={cn('shadow-lg rounded-md', {
-                'hover:shadow-xl transition-shadow duration-200': slug,
-            })}
-            layout="responsive"
-            width={width}
-            height={height}
-        />
+        // <Image
+        //     src={src}
+        //     alt={`Cover Image for ${title}`}
+        //     className={cn('shadow-lg rounded-md', {
+        //         'hover:shadow-xl transition-shadow duration-200': slug,
+        //     })}
+        //     layout={layout}
+        //     width={width}
+        //     height={height}
+        // />
+        <img src={src} alt={`Cover Image for ${title}`} className={cn('shadow-lg rounded-md w-full', {
+            'hover:shadow-xl transition-shadow duration-200': slug,
+        })} />
     )
     return (
         <div className="sm:mx-0">

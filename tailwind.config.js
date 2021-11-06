@@ -1,17 +1,16 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-    purge: ['./components/**/*.js', './pages/**/*.js'],
-    mode: 'jit',
+    content: ['./components/**/*.js', './pages/**/*.js'],
     theme: {
         colors: {
             transparent: 'transparent',
             current: 'currentColor',
-            gray: colors.trueGray,
+            gray: colors.neutral,
             green: colors.green,
             lime: colors.lime,
             emerald: colors.emerald,
-            blue: colors.lightBlue,
+            blue: colors.sky,
             yellow: colors.amber,
             white: colors.white,
             black: colors.black,

@@ -1,7 +1,7 @@
 import { Button, Wrapper, Menu, MenuItem } from 'react-aria-menubutton'
+import Link from 'next/link'
 
 import 'hamburgers/dist/hamburgers.css'
-import Link from 'next/link'
 
 const MobileMenu = () => {
     const menuItemData = [

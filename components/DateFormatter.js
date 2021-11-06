@@ -1,6 +1,6 @@
 import { LOCALE } from '../lib/constants'
 
-export default function DateFormatter({ dateString }) {
+const DateFormatter = ({ dateString }) => {
     const options = { month: 'long', day: 'numeric', year: 'numeric' }
     const formatted = new Intl.DateTimeFormat(LOCALE, options).format(
         new Date(dateString),
@@ -14,3 +14,5 @@ export default function DateFormatter({ dateString }) {
         </time>
     )
 }
+
+export default DateFormatter

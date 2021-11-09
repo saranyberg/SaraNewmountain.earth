@@ -4,7 +4,7 @@ import Meta from './Meta'
 const Layout = ({ children }) => (
     <>
         <Meta />
-        <main className="min-h-screen bg-transparent">{children}</main>
+        <main className="min-h-screen">{children}</main>
         <Footer />
     </>
 )

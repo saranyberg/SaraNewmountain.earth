@@ -28,7 +28,7 @@ const Post = ({ post }) => {
                     </h1>
                 ) : (
                     <>
-                        <article className="mb-32 prose lg:prose-xl mx-auto">
+                        <article className="mb-32 prose lg:prose-xl mx-auto bg-white p-8 rounded-md">
                             <Head>
                                 <title>
                                     {post.title} | {BLOG_TITLE}
@@ -41,7 +41,7 @@ const Post = ({ post }) => {
                             <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight">
                                 {post.title}
                             </h1>
-                            <div className="mb-8 md:mb-16 sm:mx-0 shadow-xl">
+                            <div className="mb-8 sm:mx-0 shadow-xl">
                                 <CoverImage
                                     title={post.title}
                                     src={post.coverImage}

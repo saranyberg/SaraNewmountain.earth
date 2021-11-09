@@ -9,6 +9,13 @@ module.exports = {
                     500: '#4c4d23',
                 },
             },
+            typography: {
+                DEFAULT: {
+                    css: {
+                        color: '#000',
+                    },
+                },
+            },
         },
     },
     plugins: [require('@tailwindcss/typography')],

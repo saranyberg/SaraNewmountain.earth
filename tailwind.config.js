@@ -1,27 +1,14 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
     content: ['./components/**/*.js', './pages/**/*.js'],
     theme: {
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            gray: colors.neutral,
-            green: colors.green,
-            lime: colors.lime,
-            emerald: colors.emerald,
-            blue: colors.sky,
-            yellow: colors.amber,
-            white: colors.white,
-            black: colors.black,
-            push: '#18a6d8',
-        },
-    },
-    variants: {
         extend: {
-            translate: ['hover'],
-            transform: ['hover'],
-            backgroundImage: ['hover'],
+            colors: {
+                push: '#18a6d8',
+                accent: {
+                    400: '#757722',
+                    500: '#4c4d23',
+                },
+            },
         },
     },
     plugins: [require('@tailwindcss/typography')],

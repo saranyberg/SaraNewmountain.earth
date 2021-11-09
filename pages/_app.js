@@ -9,6 +9,7 @@ const App = ({ Component, pageProps }) => {
     return (
         <>
             <div
+                // Set the average color of the background image, to create a smoother loading experience until the image is ready
                 className="fixed top-0 left-0 -z-10 w-screen bg-[#6b6a53]"
                 style={{ height: height ? height + 'px' : '100vh' }}
             >

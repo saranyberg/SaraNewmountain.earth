@@ -20,11 +20,11 @@ const MobileMenu = () => {
     ]
 
     const menuItems = menuItemData.map((item, i) => (
-        <li key={i} className="w-full">
-            <MenuItem className="w-full border-b border-white hover:bg-gradient-to-l hover:from-green-600 hover:to-green-700">
+        <li key={i} className="w-full select-none">
+            <MenuItem className="w-full border-b border-black hover:bg-gradient-to-l hover:from-accent-400 hover:to-accent-500 hover:text-white">
                 <Link href={item.href}>
                     <a
-                        className="hover:-translate-x-3 duration-200 ease-out transform outline-none text-2xl w-full block py-4"
+                        className="hover:-translate-x-3 duration-200 ease-out transform outline-none text-2xl w-full block py-4 transition-transform"
                         style={{ outline: 'none' }}
                     >
                         {item.text}
@@ -51,8 +51,8 @@ const MobileMenu = () => {
                     </span>
                 </button>
             </Button>
-            <Menu className="h-screen bg-green-700 shadow-2xl z-20 w-96 fixed top-0 right-0 transform transition-transform text-right pt-24 p-8">
-                <ul className="w-full mt-1 border-t border-white">
+            <Menu className="bg-white shadow-xl h-screen z-20 w-80 fixed top-0 right-0 transform transition-transform text-right pt-24 p-4 font-light">
+                <ul className="w-full mt-1 border-t border-black">
                     {menuItems}
                 </ul>
             </Menu>

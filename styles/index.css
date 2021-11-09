@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.hamburger-inner,
-.hamburger-inner::before,
-.hamburger-inner::after {
-    background-color: white !important;
-}

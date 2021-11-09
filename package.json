@@ -14,15 +14,16 @@
         "next": "^12.0.3",
         "react": "^17.0.2",
         "react-aria-menubutton": "^7.0.3",
+        "react-div-100vh": "^0.7.0-beta.1",
         "react-dom": "^17.0.2",
         "remark": "14.0.1",
         "remark-html": "15.0.0"
     },
     "devDependencies": {
-        "@tailwindcss/typography": "^0.5.0-alpha.2",
+        "@tailwindcss/typography": "^0.5.0-alpha.3",
         "autoprefixer": "^10.4.0",
         "postcss": "^8.3.11",
-        "tailwindcss": "^3.0.0-alpha.1"
+        "tailwindcss": "^3.0.0-alpha.2"
     },
     "prettier": {
         "tabWidth": 4,

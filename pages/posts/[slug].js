@@ -6,7 +6,6 @@ import { getPostBySlug, getAllPosts } from '../../lib/api'
 import { BLOG_TITLE } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 
-import Container from '../../components/Container'
 import Header from '../../components/Header'
 import Layout from '../../components/Layout'
 import CoverImage from '../../components/CoverImage'
@@ -21,47 +20,45 @@ const Post = ({ post }) => {
     return (
         <Layout>
             <Header />
-            <Container>
-                {router.isFallback ? (
-                    <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight">
-                        Loading…
-                    </h1>
-                ) : (
-                    <>
-                        <article className="mb-32 prose lg:prose-xl mx-auto bg-white p-8 rounded-md">
-                            <Head>
-                                <title>
-                                    {post.title} | {BLOG_TITLE}
-                                </title>
-                                <meta
-                                    property="og:image"
-                                    content={post.ogImage.url}
-                                />
-                            </Head>
-                            <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight">
-                                {post.title}
-                            </h1>
-                            <div className="mb-8 sm:mx-0 shadow-xl">
-                                <CoverImage
-                                    title={post.title}
-                                    src={post.coverImage}
-                                />
-                            </div>
-                            <div className="max-w-2xl mx-auto">
-                                <div className="mb-6 text-lg">
-                                    <DateFormatter dateString={post.date} />
-                                </div>
-                            </div>
-                            <article
-                                className="max-w-2xl mx-auto"
-                                dangerouslySetInnerHTML={{
-                                    __html: post.content,
-                                }}
+            {router.isFallback ? (
+                <h1 className="text-2xl lg:text-5xl font-bold tracking-tighter leading-tight text-center">
+                    Loading…
+                </h1>
+            ) : (
+                <div className="max-w-max bg-white mx-auto rounded-md p-4 sm:p-8 md:p-16 mb-32">
+                    <article className="prose lg:prose-lg 2xl:prose-xl">
+                        <Head>
+                            <title>
+                                {post.title} | {BLOG_TITLE}
+                            </title>
+                            <meta
+                                property="og:image"
+                                content={post.ogImage.url}
                             />
-                        </article>
-                    </>
-                )}
-            </Container>
+                        </Head>
+                        <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight">
+                            {post.title}
+                        </h1>
+                        <div className="mb-8 sm:mx-0 shadow-xl">
+                            <CoverImage
+                                title={post.title}
+                                src={post.coverImage}
+                            />
+                        </div>
+                        <div className="max-w-2xl mx-auto">
+                            <div className="mb-6 text-lg">
+                                <DateFormatter dateString={post.date} />
+                            </div>
+                        </div>
+                        <article
+                            className="max-w-2xl mx-auto"
+                            dangerouslySetInnerHTML={{
+                                __html: post.content,
+                            }}
+                        />
+                    </article>
+                </div>
+            )}
         </Layout>
     )
 }

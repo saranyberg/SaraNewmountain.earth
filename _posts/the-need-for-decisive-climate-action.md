@@ -10,7 +10,7 @@ ogImage:
 Warm welcome to my website and my first post! My name is Sara Nyberg and I'm very excited to share my knowledge and thoughts about climate and other environmental topics. Read about who I am on the page [About me](https://saranewmountain.earth/about-me). I will write facts from climate science and show what causes how much emissions and deep dive into certain topics or technologies. I will also have a big focus on how you can get involved and take climate action: as an individual, consumer, employee and as a citizen. I hope that you will learn something and get inspiration to take more action - yourself, and with other people.
 I plan to write something once per week, so follow me on social media ([LinkedIn](https://www.linkedin.com/in/sara-newmountain/), [Instagram](https://www.instagram.com/sara.newmountain/) and [Twitter](https://twitter.com/saranewmountain)) to know when I publish the next post!
 
-## Why do I want to start to write about environmental and sustainability topics?
+## Why do I write about environmental and sustainability topics?
 
 I have been engaged in the environmental movement for quite exactly ten years and have learned a lot during this time. Since more people need to know more about the climate crisis and the solutions, to act upon it, I want to share my knowledge about it - see the page [Learn more!](/learn-more) I also want to share tips on how to get engaged, to do something to contribute to a more sustainable future - see the page [Take Action!](/take-action)
 

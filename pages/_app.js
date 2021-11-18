@@ -15,7 +15,7 @@ const App = ({ Component, pageProps }) => {
             >
                 <Image
                     src={bgImage}
-                    alt="Green hills with sunshine and person with backpack enjoying the view"
+                    alt="Sunny, green hills and a person with a backpack standing on a cliff, perhaps envisioning a sustainble future?"
                     layout="fill"
                     objectFit="cover"
                     placeholder="blur"

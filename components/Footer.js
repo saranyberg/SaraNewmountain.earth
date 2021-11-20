@@ -18,7 +18,7 @@ const Footer = () => (
                         </a>
                     </Link>
                     <Link href="/learn-more">
-                        <a className="mx-4 font-bold text-white bg-black bg-opacity-50 hover:bg-opacity-70 py-3 px-12 lg:px-8">
+                        <a className="mx-4 font-bold text-white bg-black bg-opacity-50 hover:bg-opacity-70 rounded-sm py-3 px-12 lg:px-8">
                             I want to learn more
                         </a>
                     </Link>

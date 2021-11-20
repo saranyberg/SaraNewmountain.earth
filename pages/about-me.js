@@ -72,7 +72,9 @@ const LearnMore = () => (
                     website? I'd very much appreciate your thoughts, to know how
                     I can improve my communication! For the posts I have a lot
                     of ideas, but it's nice to hear what you as a reader would
-                    be interested in reading about. Email me or write to me via
+                    be interested in reading about.{' '}
+                    <a href="mailto:sarasustainable@gmail.com"> Email me</a> or
+                    write to me via{' '}
                     <a href="https://www.linkedin.com/in/sara-newmountain/">
                         LinkedIn
                     </a>

@@ -29,7 +29,7 @@ const TakeAction = () => (
                 <h2>Take action as an individual:</h2>
                 <ul>
                     <li>
-                        1. Eat more plant based food - to have the lowest food
+                        **Eat more plant based food** - to have the lowest food
                         footprint you eat only vegan food, but to stay within
                         the carbon budget for 1.5degC, you can eat meat ca once
                         per week. But then it should be organic and locally
@@ -39,24 +39,24 @@ const TakeAction = () => (
                         vegan.
                     </li>
                     <li>
-                        2. Do you fly sometimes? Don't do it. If you fly, these
+                        Do you fly sometimes? Don't do it. If you fly, these
                         emissions are one of the largest emission categories.
-                        Instead, go by train or bus. I think this is much more
-                        exciting, more social and you get to see some beautiful
-                        landscapes! I have myself not flown for 2.5 years, and I
-                        see no reason taking the airplane within Europe. In
-                        2019, I made 9 travels to Europe, all of them on the
-                        ground. The longest trip was 48 hours from Stockholm to
-                        COP25 in Madrid (!).
+                        Instead, **go by train or bus**. I think this is much
+                        more exciting, more social and you get to see some
+                        beautiful landscapes! I have myself not flown for 2.5
+                        years, and I see no reason taking the airplane within
+                        Europe. In 2019, I made 9 travels to Europe, all of them
+                        on the ground. The longest trip was 48 hours from
+                        Stockholm to COP25 in Madrid (!).
                     </li>
                     <li>
-                        3. Where is your money invested? You can make a large
+                        Where is your money invested? You can make a large
                         difference through putting your money in climate or more
-                        sustainable funds, investing in companies installing
-                        solar PV cells in developing countries via
-                        [Trine](https://trine.com/), or buy stocks directly in
-                        companies. Or simply donate money to organisations such
-                        as
+                        **sustainable funds**, **investing** in companies
+                        installing solar PV cells in developing countries via
+                        [Trine](https://trine.com/), or **buy stocks** directly
+                        in companies. Or simply **donate money** to
+                        organisations such as
                         [Greenpeace](https://www.greenpeace.org/international/)
                         or the [WWF](https://lp.panda.org/donate).
                     </li>
@@ -64,7 +64,7 @@ const TakeAction = () => (
                 <h2>Take action together with others:</h2>
                 <ul>
                     <li>
-                        1. Get active in a youth organisation! 1.1 In Sweden:
+                        **Get active in a youth organisation!** 1.1 In Sweden:
                         [PUSH Sweden](https://pushsverige.se/english/) ([PUSH
                         Sverige](https://pushsverige.se/), a Swedish youth
                         climate network);
@@ -82,7 +82,7 @@ const TakeAction = () => (
                         Students](https://climatestudents.com/)
                     </li>
                     <li>
-                        2. Get active in an environmental organisation! 2.1 In
+                        **Get active in an environmental organisation!** 2.1 In
                         Sweden: [Naturskyddsföreningen, the Swedish Society for
                         Nature
                         Conservation](https://www.naturskyddsforeningen.se/in-english/);
@@ -94,7 +94,7 @@ const TakeAction = () => (
                         Rebellion](https://rebellion.global/).
                     </li>
                     <li>
-                        3. Get active in a project or initiative! [Climate
+                        **Get active in a project or initiative!** [Climate
                         Reality
                         Project](https://www.climaterealityproject.org/);
                         [Climate Fresk](https://climatefresk.org/) (learn and
@@ -107,22 +107,21 @@ const TakeAction = () => (
                 <h2>Take action as an employee:</h2>
                 <ul>
                     <li>
-                        1. Young and want to work with something climate
-                        related? Check out job postings and the communities of
+                        **Young and want to work with something climate
+                        related?** Check out job postings and the communities of
                         Youth Climate Leaders, and Sustainergies!
                     </li>
                     <li>
-                        2. Are you ready to change to a more meaningful
-                        job/where you can work more with sustainability? We need
-                        people from all backgrounds! Are you a coach, check out
-                        Climate Change Coaches, are you a psychologist, you can
-                        join Klimatpsykologerna
-                        (https://www.klimatpsykologerna.se/). Engineer?
-                        Ingenjörer för miljön. Artister för miljön
+                        **Are you ready to change to a more meaningful job/where
+                        you can work more with sustainability?** We need people
+                        from all backgrounds! Are you a coach, check out Climate
+                        Change Coaches, are you a psychologist, you can join
+                        Klimatpsykologerna (https://www.klimatpsykologerna.se/).
+                        Engineer? Ingenjörer för miljön. Artister för miljön
                         (http://www.artisterformiljon.se/).
                     </li>
                     <li>
-                        3. Do something in your current role! Either what you
+                        ** Do something in your current role!** Either what you
                         are actually working with, or make sure your workplace
                         is greener (more plants, recycle, organic food products,
                         print less, etc.), or - even better - suggest to the
@@ -136,13 +135,13 @@ const TakeAction = () => (
                 </ul>
                 <h2>Take action as a citizen:</h2>
                 <ul>
-                    <li>1. Vote for a greener party!</li>
+                    <li>**Vote for a greener party!**</li>
                     <li>
-                        2. Get engaged in a party - all parties need to become
+                        **Get engaged in a party** - all parties need to become
                         greener!
                     </li>
                     <li>
-                        3. Put forward a suggestion - in Sweden you can put
+                        **Put forward a suggestion** - in Sweden you can put
                         forward a citizens' suggestion (Medborgarförslag) or
                         similar, for which you can gather votes and it can be
                         brought up in the municipality.

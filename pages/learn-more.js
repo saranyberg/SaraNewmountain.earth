@@ -15,11 +15,188 @@ const LearnMore = () => (
         <Container>
             <article className="mb-32 prose lg:prose-xl mx-auto">
                 <h1>Learn more about climate change</h1>
-                <p>very informative, indeed.</p>
+                <p>
+                    If you don’t know so much about the causes and effects of
+                    climate change it can be hard to talk about it with others.
+                    And if you don’t know about the urgency of the climate
+                    crisis you’re likely less motivated to take immediate
+                    action. Therefore I have put together this list of some
+                    resources, from which you can learn more about climate
+                    change and other environmental issues, and about the
+                    solutions.
+                </p>
+                <h2>Websites</h2>
+                <p>Climate science facts and basics</p>
                 <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
+                    <li>
+                        **[IPCC](https://www.ipcc.ch/)**, the Intergovernmental
+                        Panel on Climate Change, is the United Nations body for
+                        assessing the science related to climate change. They
+                        gather extensive research on climate science, its
+                        effects and about climate mitigation (reducing emissions
+                        to, and increasing the uptake of greenhouse gases from
+                        the atmosphere) and adaptation. The full reports are
+                        very extensive, but they have good summaries for
+                        policymakers which are shorter and easier to read. The
+                        latest one is the [Summary for
+                        policymakers](https://www.ipcc.ch/report/ar6/wg1/#SPM)
+                        about the Physical Science Basis from the Sixth
+                        Assessment Report.
+                    </li>
+                    <li>
+                        **[DN klimatet just
+                        nu](https://www.dn.se/klimatet-just-nu/)**: One of the
+                        largest Swedish newspapers has gathered facts of where
+                        we are right now concerning climate change, and where we
+                        are heading.
+                    </li>
+                    <li>
+                        **[Klimatklockan](https://stage.klimatklockan.se/)**:
+                        shows how much time we have until the remaining Swedish
+                        carbon budget has run out, if we continue to emit at the
+                        current pace.
+                    </li>
+                </ul>
+                <p>How and in which speed to reduce the emissions</p>
+                <ul>
+                    <li>
+                        **[Project Drawdown](https://www.drawdown.org)** – a
+                        leading resource for information and insight about
+                        climate solutions
+                    </li>
+                    <li>
+                        **The [Exponential Roadmap
+                        Initiative](https://exponentialroadmap.org)** is for
+                        innovators, transformers and disruptors taking action in
+                        line with 1.5°C, with the mission to halve emissions
+                        before 2030 through exponential climate action and
+                        solutions.
+                    </li>
+                    <li>
+                        **[Climate
+                        Interactive](https://www.climateinteractive.org/)**
+                        creates accessible, scientifically rigorous tools that
+                        help people see connections, play out scenarios, and see
+                        what works to address the biggest challenges we face.
+                        They have developed the **[En-ROADs
+                        simulator](https://www.climateinteractive.org/tools/en-roads/)**,
+                        a policy simulation model that gives everyone the chance
+                        to design their own scenarios to limit future global
+                        warming.
+                    </li>
+                    <li>
+                        **[Climate Watch](https://www.climatewatchdata.org/)** -
+                        offers open data, visualizations and analysis to help
+                        policymakers, researchers and other stakeholders gather
+                        insights on countries' climate progress
+                    </li>
+                    <li>
+                        **[Klimatsekretariatet](https://www.klimatsekretariatet.se/)**
+                        has developed the ClimateVisualizer, a tool which helps
+                        municipalities in Sweden to see the roadmap to reduce
+                        emissions in line with the Paris Agreement.
+                    </li>
+                </ul>
+                <p>It’s not only about climate...</p>
+                <ul>
+                    <li>
+                        **The [Planetary
+                        boundaries](https://stockholmresilience.org/research/planetary-boundaries.html)**
+                        concept presents a set of nine planetary boundaries
+                        within which humanity can continue to develop and thrive
+                        for generations to come. Crossing these boundaries
+                        increases the risk of generating large-scale abrupt or
+                        irreversible environmental changes.
+                    </li>
+                    <li>
+                        **[Doughnut Economics Action
+                        Lab](https://doughnuteconomics.org/)** is working with
+                        100’s of companies, cities and individuals to support a
+                        holistic world economy, by putting the concepts of
+                        Doughnut Economics into transformative action. In short,
+                        Doughnut Economics is about how we should keep within
+                        the planetary boundaries (under the ecological ceiling),
+                        and fulfil people’s essential needs (above a certain
+                        level of social foundation).
+                    </li>
+                    <li>
+                        **[The Global Goals for Sustainable
+                        Development](https://www.globalgoals.org/)**, also known
+                        as Agenda 2030, because it’s important not only to focus
+                        on climate – we have 16 other sustainability goals as
+                        well.
+                    </li>
+                </ul>
+
+                <h2>Books</h2>
+                <ul>
+                    <li>
+                        **“Exponentiell Klimatomställning”** by Rebecka
+                        Carlsson. It’s a great book about exponential climate
+                        technologies and behavioural changes; about climate
+                        solutions and with a sustainable business canvas – a
+                        tool and mental framework for developing successful,
+                        sustainable and scalable business models. Order one or
+                        several books on [Rebecka’s
+                        website](https://www.rebeckacarlsson.se/).
+                    </li>
+                    <li>
+                        **“Changing the world we create”** by Mark Drewell and
+                        Björn Larsson. It’s introducing the concept of meta
+                        crisis: We’re not only facing a climate crisis, but also
+                        biodiversity, health and other crises. More interesting
+                        are the parts about the need for new perspectives, which
+                        those are and how we can shift to those. The
+                        perspectives are the views of ourselves, of the world,
+                        of our mind, of society and of our lives. Buy the
+                        physical book on e.g.
+                        [Adlibris](https://www.adlibris.com/se/bok/changing-the-world-we-create-9781912892921),
+                        or as ebook on
+                        [goodreads.com](https://www.goodreads.com/book/show/54324495-changing-the-world-we-create).
+                    </li>
+                    <li>
+                        **“Doughnut economics - seven ways to think like a
+                        21st-century economist”** by [Kate
+                        Raworth](https://www.kateraworth.com/) (links to where
+                        to buy the book), see information in short on the
+                        [Doughnut Economics Action Lab
+                        website](https://doughnuteconomics.org/tools-and-stories/2).
+                    </li>
+                </ul>
+
+                <h2>Workshops and courses</h2>
+                <ul>
+                    <li>
+                        I participated in the **[Climate
+                        Fresk](https://climatefresk.org/)** workshop in early
+                        2021 and participated in a training to become a
+                        facilitator in mid-2021 to be able to facilitate such
+                        workshops. The workshop consists of three parts: First,
+                        you and other participants together put 42 cards in the
+                        correct order to show the causes and effects of climate
+                        change. This is followed by a part where you tune into
+                        your feelings, and finally you explore what actions you
+                        can take to have a positive impact on the climate.
+                    </li>
+                </ul>
+
+                <h2>Video clips</h2>
+                <ul>
+                    <li>
+                        **[Climate Action Tracker: The state of the climate
+                        crisis in 2021 | TED](https://youtu.be/-wJo5aKBwq0)** -
+                        is showing the current state of countries’ pledges to
+                        reduce emissions and what level of global heating these
+                        pledges will lead to.
+                    </li>
+                    <li>
+                        Not so much facts, but rather for inspiration, I really
+                        like the positive future visions from Solarpunk! I can
+                        recommend [this 10-minute
+                        video](https://youtu.be/u3aauiR9M88) as an introduction
+                        to **Solarpunk**, but feel free to explore other videos
+                        as well!
+                    </li>
                 </ul>
             </article>
         </Container>

@@ -36,19 +36,19 @@ const Post = ({ post }) => {
                                 content={post.ogImage.url}
                             />
                         </Head>
-                        <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight">
+                        <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight !mb-6">
                             {post.title}
                         </h1>
+                        <div className="max-w-2xl mx-auto">
+                            <div className="mb-6 text-lg">
+                                <DateFormatter dateString={post.date} />
+                            </div>
+                        </div>
                         <div className="mb-8 sm:mx-0 shadow-xl">
                             <CoverImage
                                 title={post.title}
                                 src={post.coverImage}
                             />
-                        </div>
-                        <div className="max-w-2xl mx-auto">
-                            <div className="mb-6 text-lg">
-                                <DateFormatter dateString={post.date} />
-                            </div>
                         </div>
                         <article
                             className="max-w-2xl mx-auto"

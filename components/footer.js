@@ -18,18 +18,10 @@ const Footer = () => (
                         </a>
                     </Link>
                     <Link href="/learn-more">
-                        <a className="mx-4 font-bold hover:underline text-white">
+                        <a className="mx-4 font-bold text-white bg-black bg-opacity-50 hover:bg-opacity-70 py-3 px-12 lg:px-8">
                             I want to learn more
                         </a>
                     </Link>
-                    {/* TODO:
-
-                        - add intro about me
-                        tudelinoodlez@tuta.io
-
-                        - move up date above main post image
-
-                        */}
                 </div>
             </div>
         </Container>

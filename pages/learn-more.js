@@ -1,16 +1,9 @@
-import Head from 'next/head'
-
-import { BLOG_TITLE } from '../lib/constants'
-
 import Container from '../components/Container'
 import Header from '../components/Header'
 import Layout from '../components/Layout'
 
 const LearnMore = () => (
-    <Layout>
-        <Head>
-            <title>{BLOG_TITLE}</title>
-        </Head>
+    <Layout title="Learn more">
         <Header />
         <Container>
             <article className="mb-32 prose lg:prose-xl mx-auto">

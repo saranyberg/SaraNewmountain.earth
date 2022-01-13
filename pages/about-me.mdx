@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import sara from '../public/assets/images/IMG_2695.JPG'
+
 export { default as default } from '../components/PageLayout'
 
 # About me
@@ -26,7 +29,9 @@ has been polluted by humans, or where we have used pesticides killing bees,
 limiting the pollination of apple tree flowers. Therefore we humans need to
 change our relationship to nature: from seeing it as a unlimited resource we
 can pollute and extract things from to something we need to respect and take
-care of. [HUR FÅ IN BILD? BILDEN FR BESSEGGEN OK?]
+care of.
+
+<Image src={sara} alt="Sara Nyberg" width={720} height={480} quality={80} />
 
 ## Why SaraNewmountain.earth?
 
@@ -52,9 +57,9 @@ what you as a reader would be interested in reading about. [Email me](mailto:sar
 
 <>
     {/* <h2>Voluntary engagements and achievements - PER ENAGEMANG ELLER TIMELINE? SE MINA ACHIEVEMENTS I TODOIST</h2>
-                        <ul>
-                            <li>YES Europe - HUR GÖR JAG NÄSTA NIVÅ AV UNDERPUNKTER?</li>
-                            <li>PUSH Sverige (PUSH Sweden)</li>
-                            <li>YOUNGO (tech mech WG, TEC, CTCN)</li>
-                        </ul> */}
+    <ul>
+        <li>YES Europe - HUR GÖR JAG NÄSTA NIVÅ AV UNDERPUNKTER?</li>
+        <li>PUSH Sverige (PUSH Sweden)</li>
+        <li>YOUNGO (tech mech WG, TEC, CTCN)</li>
+    </ul> */}
 </>

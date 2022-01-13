@@ -2,7 +2,7 @@
 title: 'The need for decisive climate action'
 excerpt: 'Warm welcome to my website and my first post! My name is Sara Nyberg and I am very excited to share my knowledge and thoughts about climate and other environmental topics. I will not only write facts from climate science and show what causes how much emissions and deep dive into certain topics or technologies, but also have a big focus on how you can get involved and take climate action: both as an individual, consumer, employee and as a citizen.'
 coverImage: '/assets/images/IMG_2695.JPG'
-date: '2021-10-07T18:43:15.208Z'
+date: '2022-01-15'
 ogImage:
     url: '/assets/images/IMG_2695.JPG'
 ---

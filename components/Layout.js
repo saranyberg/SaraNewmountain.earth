@@ -1,9 +1,8 @@
 import Head from 'next/head'
 
 import Footer from './Footer'
-import Meta from './Meta'
 
-import { BLOG_TITLE } from '../lib/constants'
+import { BLOG_TITLE, HOME_OG_IMAGE_URL, BLOG_TAGLINE } from '../lib/constants'
 
 const Layout = ({ children, title = '' }) => (
     <>
@@ -12,8 +11,10 @@ const Layout = ({ children, title = '' }) => (
                 {title ? title + ' | ' : ''}
                 {BLOG_TITLE}
             </title>
+            <meta name="theme-color" content="#000" />
+            <meta name="description" content={BLOG_TAGLINE} />
+            <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
-        <Meta />
         <main className="min-h-screen">{children}</main>
         <Footer />
     </>

@@ -12,7 +12,7 @@ I plan to write something around every second week, so follow me on social media
 
 ## Why do I write about environmental and sustainability topics?
 
-I have been engaged in the environmental movement for 14 years and have learned a lot during this time. Since more people need to know more about the climate crisis and the solutions, to act upon it, I want to share my knowledge about it - see the page [Learn more!](/learn-more). I also want to share tips on how to get engaged, to do something to contribute to a more sustainable future - see the page [Take Action!](/take-action).
+I have been engaged in the environmental movement for 14 years and have learned a lot during this time. Since more people need to know more about the climate crisis and the solutions, to act upon it, I want to share my knowledge about it - see the page [Learn more!](/learn-more) I also want to share tips on how to get engaged, to do something to contribute to a more sustainable future - see the page [Take Action!](/take-action)
 
 Through my texts I want to help others to:
 

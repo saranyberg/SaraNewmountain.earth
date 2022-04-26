@@ -1,6 +1,7 @@
-import cn from 'classnames'
 import Link from 'next/link'
 // import Image from 'next/image'
+
+import { cx } from '../lib/utils'
 
 const CoverImage = ({
     title,
@@ -24,9 +25,10 @@ const CoverImage = ({
         <img
             src={src}
             alt={`Cover Image for ${title}`}
-            className={cn('shadow-lg rounded-md w-full', {
-                'hover:shadow-xl transition-shadow duration-200': slug,
-            })}
+            className={cx(
+                'shadow-lg rounded-md w-full',
+                slug ? 'hover:shadow-xl transition-shadow duration-200' : '',
+            )}
         />
     )
     return (

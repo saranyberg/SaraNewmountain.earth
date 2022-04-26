@@ -3,7 +3,7 @@ import Link from 'next/link'
 import DateFormatter from './DateFormatter'
 import CoverImage from './CoverImage'
 
-const HeroPost = ({ title, coverImage, date, excerpt, slug }) => (
+const Post = ({ title, coverImage, date, excerpt, slug }) => (
     <section>
         <div className="mb-8 md:mb-16 max-w-3xl mx-auto p-2 bg-white rounded-md">
             <CoverImage
@@ -32,4 +32,4 @@ const HeroPost = ({ title, coverImage, date, excerpt, slug }) => (
     </section>
 )
 
-export default HeroPost
+export default Post

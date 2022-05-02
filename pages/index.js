@@ -19,7 +19,7 @@ const Index = ({ allPosts }) => {
             <Header />
             <Container>
                 {heroPost && <Post {...heroPost} />}
-                {morePosts.length && <MoreStories posts={morePosts} />}
+                {Boolean(morePosts.length) && <MoreStories posts={morePosts} />}
             </Container>
         </Layout>
     )

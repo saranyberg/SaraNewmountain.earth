@@ -9,6 +9,8 @@ Ctrl + Cmd + Space - lägg till emojis eller t.ex. ℃ (grader celsius)
 # Tips för att använda VS Code
 
 I source control (förgrening): Tre prickar - Commit - undo last commit.
+Öppna/stäng terminalen med ctrl+shift+` (backtick/accent grave).
+Skriv in "npm run dev" för att starta hemsidan lokalt. Öppna en webbläsare och skriv in http://localhost:3000/ för att komma till hemsidan (lokalt).
 
 # För att skriva markdown - formateringstips
 

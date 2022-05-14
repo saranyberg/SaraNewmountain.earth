@@ -10,19 +10,19 @@
     "dependencies": {
         "gray-matter": "4.0.3",
         "hamburgers": "^1.2.1",
-        "next": "^12.1.5",
-        "react": "^17.0.2",
+        "next": "^12.1.6",
+        "react": "^18.1.0",
         "react-aria-menubutton": "^7.0.3",
         "react-div-100vh": "^0.7.0",
-        "react-dom": "^17.0.2",
+        "react-dom": "^18.1.0",
         "remark": "14.0.2",
         "remark-html": "15.0.1"
     },
     "devDependencies": {
         "@mdx-js/loader": "^2.1.1",
         "@tailwindcss/typography": "^0.5.2",
-        "autoprefixer": "^10.4.5",
-        "postcss": "^8.4.12",
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.13",
         "prettier": "^2.6.2",
         "tailwindcss": "^3.0.24"
     },

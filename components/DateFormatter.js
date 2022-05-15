@@ -9,7 +9,7 @@ const DateFormatter = ({ dateString, className }) => {
     return (
         <time
             dateTime={dateString}
-            className={cx('uppercase tracking-wider text-sm', className)}
+            className={cx('uppercase tracking-wider text-sm block', className)}
         >
             {formatted}
         </time>

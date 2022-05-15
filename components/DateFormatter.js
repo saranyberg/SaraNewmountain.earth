@@ -1,6 +1,7 @@
 import { LOCALE } from '../lib/constants'
+import { cx } from '../lib/utils'
 
-const DateFormatter = ({ dateString }) => {
+const DateFormatter = ({ dateString, className }) => {
     const options = { month: 'long', day: 'numeric', year: 'numeric' }
     const formatted = new Intl.DateTimeFormat(LOCALE, options).format(
         new Date(dateString),
@@ -8,7 +9,7 @@ const DateFormatter = ({ dateString }) => {
     return (
         <time
             dateTime={dateString}
-            className="uppercase tracking-wider text-sm"
+            className={cx('uppercase tracking-wider text-sm', className)}
         >
             {formatted}
         </time>

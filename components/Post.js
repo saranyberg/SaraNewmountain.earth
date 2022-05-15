@@ -21,9 +21,7 @@ const Post = ({ title, coverImage, date, excerpt, slug }) => (
                         <a className="hover:underline">{title}</a>
                     </Link>
                 </h3>
-                <div className="mb-4 md:mb-0 text-lg">
-                    <DateFormatter dateString={date} />
-                </div>
+                <DateFormatter dateString={date} className="mb-4 md:mb-0" />
             </div>
             <div>
                 <p className="text-lg leading-relaxed mb-4">{excerpt}</p>

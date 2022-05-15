@@ -1,30 +1,32 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 import DateFormatter from './DateFormatter'
-import CoverImage from './CoverImage'
 
 const Post = ({ title, coverImage, date, excerpt, slug }) => (
-    <section>
-        <div className="mb-8 md:mb-16 max-w-3xl mx-auto p-2 bg-white rounded-md">
-            <CoverImage
-                title={title}
+    <section className="bg-white p-8 rounded-md">
+        <h3 className="mb-8 text-4xl lg:text-5xl font-bold leading-tight tracking-tighter">
+            <Link as={`/posts/${slug}`} href="/posts/[slug]">
+                <a className="hover:underline">{title}</a>
+            </Link>
+        </h3>
+        <div className="md:grid md:grid-cols-2 md:gap-4 items-start relative">
+            <Image
                 src={coverImage}
-                slug={slug}
-                height={620}
-                width={1240}
+                width={1280}
+                height={720}
+                layout="intrinsic"
+                objectFit="contain"
             />
-        </div>
-        <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28 bg-white p-8 rounded-md">
-            <div>
-                <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
-                    <Link as={`/posts/${slug}`} href="/posts/[slug]">
-                        <a className="hover:underline">{title}</a>
-                    </Link>
-                </h3>
-                <DateFormatter dateString={date} className="mb-4 md:mb-0" />
-            </div>
-            <div>
-                <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+
+            <div className="max-w-prose grid text-lg h-full items-start">
+                <DateFormatter dateString={date} />
+                <p>{excerpt}</p>
+                <Link href={`/posts/${slug}`}>
+                    <a className="mt-4 md:place-self-end text-center bg-gradient-to-r from-accent-500 to-accent-400 text-white rounded-sm hover:shadow-lg font-bold py-3 px-12 lg:px-8">
+                        Read more &rarr;
+                    </a>
+                </Link>
             </div>
         </div>
     </section>

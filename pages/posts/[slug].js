@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import Head from 'next/head'
+import Image from 'next/image'
 
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import { BLOG_TITLE } from '../../lib/constants'
@@ -8,7 +9,6 @@ import markdownToHtml from '../../lib/markdownToHtml'
 
 import Header from '../../components/Header'
 import Layout from '../../components/Layout'
-import CoverImage from '../../components/CoverImage'
 import DateFormatter from '../../components/DateFormatter'
 
 const Post = ({ post }) => {
@@ -25,8 +25,8 @@ const Post = ({ post }) => {
                     Loading…
                 </h1>
             ) : (
-                <div className="max-w-max bg-white mx-auto rounded-md p-4 sm:p-8 md:p-16 mb-32">
-                    <article className="prose lg:prose-lg 2xl:prose-xl">
+                <div className="max-w-max bg-white mx-auto rounded-md p-4 sm:p-8 md:p-12 mb-32">
+                    <article className="prose lg:prose-lg xl:prose-xl 2xl:prose-2xl">
                         <Head>
                             <title>
                                 {post.title} | {BLOG_TITLE}
@@ -36,20 +36,23 @@ const Post = ({ post }) => {
                                 content={post.ogImage.url}
                             />
                         </Head>
-                        <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight !mb-6">
+                        <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl tracking-tighter leading-tight !mb-4">
                             {post.title}
                         </h1>
-                        <div className="mb-6 text-lg">
-                            <DateFormatter dateString={post.date} />
-                        </div>
-                        <div className="mb-8 sm:mx-0 shadow-xl">
-                            <CoverImage
-                                title={post.title}
-                                src={post.coverImage}
-                            />
-                        </div>
-                        <article
-                            className="max-w-2xl mx-auto"
+                        <DateFormatter
+                            dateString={post.date}
+                            className="mb-8"
+                        />
+                        <Image
+                            src={post.coverImage}
+                            width={1280}
+                            height={720}
+                            layout="intrinsic"
+                            objectFit="contain"
+                            className="mb-8"
+                        />
+                        <section
+                            className="max-w-prose mx-auto marker:text-black"
                             dangerouslySetInnerHTML={{
                                 __html: post.content,
                             }}

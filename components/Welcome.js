@@ -20,21 +20,23 @@ const Welcome = ({ className }) => (
                 quality={80}
             />
         </div>
-        <div className="max-w-prose text-lg">
-            <h2 className="text-4xl font-bold tracking-tighter pb-4 md:pb-2 text-center md:text-left">
+        <div className="max-w-prose text-lg grid h-full gap-4">
+            <h2 className="text-4xl font-bold tracking-tighter text-center md:text-left">
                 Welcome!
             </h2>
-            <p className="max-w-prose text-lg">
+            <p>
                 My name is Sara Nyberg. I want to do everything I can, and as
                 long as I can, to reduce the emissions of greenhouse gases which
                 are contributing to the climate crisis we are in. I have been
                 active for ten years in different environmental and climate
                 organisations and have a degree in environmental and energy
-                systems engineering.{' '}
-                <Link href="/about-me">
-                    <a className="underline">Read more</a>
-                </Link>
+                systems engineering.
             </p>
+            <Link href="/about-me">
+                <a className="md:place-self-end text-center bg-gradient-to-r from-accent-500 to-accent-400 text-white rounded-sm hover:shadow-lg font-bold py-3 px-12 lg:px-8">
+                    Learn more &rarr;
+                </a>
+            </Link>
         </div>
     </section>
 )

@@ -7,7 +7,7 @@ import { cx } from '../lib/utils'
 const Welcome = ({ className }) => (
     <section
         className={cx(
-            'bg-white grid md:grid-cols-[max-content_1fr] py-4 px-8 md:p-8 max-w-max rounded-md mx-auto gap-4 md:gap-8 items-center justify-items-center',
+            'bg-white grid md:grid-cols-[max-content_1fr] p-8 max-w-max rounded-md mx-auto gap-4 md:gap-8 items-center justify-items-center',
             className,
         )}
     >

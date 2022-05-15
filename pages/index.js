@@ -8,6 +8,7 @@ import MoreStories from '../components/MoreStories'
 import Post from '../components/Post'
 import Header from '../components/Header'
 import Layout from '../components/Layout'
+import Welcome from '../components/Welcome'
 
 const Index = ({ allPosts }) => {
     const [heroPost, ...morePosts] = allPosts
@@ -18,6 +19,7 @@ const Index = ({ allPosts }) => {
             </Head>
             <Header />
             <Container>
+                <Welcome className="mb-32" />
                 {heroPost && <Post {...heroPost} />}
                 {Boolean(morePosts.length) && <MoreStories posts={morePosts} />}
             </Container>

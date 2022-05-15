@@ -20,7 +20,7 @@ const Post = ({ title, coverImage, date, excerpt, slug }) => (
             />
 
             <div className="max-w-prose grid text-lg h-full items-start">
-                <DateFormatter dateString={date} />
+                <DateFormatter dateString={date} className="my-4 md:mt-0" />
                 <p>{excerpt}</p>
                 <Link href={`/posts/${slug}`}>
                     <a className="mt-4 md:place-self-end text-center bg-gradient-to-r from-accent-500 to-accent-400 text-white rounded-sm hover:shadow-lg font-bold py-3 px-12 lg:px-8">

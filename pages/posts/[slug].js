@@ -39,10 +39,8 @@ const Post = ({ post }) => {
                         <h1 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight !mb-6">
                             {post.title}
                         </h1>
-                        <div className="max-w-2xl mx-auto">
-                            <div className="mb-6 text-lg">
-                                <DateFormatter dateString={post.date} />
-                            </div>
+                        <div className="mb-6 text-lg">
+                            <DateFormatter dateString={post.date} />
                         </div>
                         <div className="mb-8 sm:mx-0 shadow-xl">
                             <CoverImage

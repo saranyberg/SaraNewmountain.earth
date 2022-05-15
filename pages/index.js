@@ -4,14 +4,12 @@ import { getAllPosts } from '../lib/api'
 import { BLOG_TITLE } from '../lib/constants'
 
 import Container from '../components/Container'
-import MoreStories from '../components/MoreStories'
 import Post from '../components/Post'
 import Header from '../components/Header'
 import Layout from '../components/Layout'
 import Welcome from '../components/Welcome'
 
 const Index = ({ allPosts }) => {
-    const [heroPost, ...morePosts] = allPosts
     return (
         <Layout>
             <Head>
@@ -19,9 +17,16 @@ const Index = ({ allPosts }) => {
             </Head>
             <Header />
             <Container>
-                <Welcome className="mb-32" />
-                {heroPost && <Post {...heroPost} />}
-                {Boolean(morePosts.length) && <MoreStories posts={morePosts} />}
+                <Welcome className="my-16" />
+                <div className="grid gap-16 max-w-6xl mx-auto">
+                    <h2 className="text-6xl font-bold tracking-tighter text-white drop-shadow-2xl">
+                        Latest posts
+                    </h2>
+                    {Boolean(allPosts.length) &&
+                        allPosts.map((post) => (
+                            <Post {...post} key={post.title} />
+                        ))}
+                </div>
             </Container>
         </Layout>
     )

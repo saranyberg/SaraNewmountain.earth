@@ -58,7 +58,7 @@ https://learnmarkdown.com/ för mer formattering
 
 strong: double asterisks or double underscores
 
-**Strong** or **Strong**
+**Strong** or __Strong__
 
 **This whole sentence is strong.**
 
@@ -71,7 +71,7 @@ some**times**, **some**times, so**meti**mes.
 
 emphasize: single asterisk or single underscore
 
-_Emphasize_ or _Emphasize_
+*Emphasize* or _Emphasize_
 
 ---
 

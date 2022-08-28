@@ -18,6 +18,11 @@ Don't need to do this to work locally and save CPU on the computer.
 2. Write commit message and commit (✓)
 3. Push to GitHub to automatically publish webpage (circular arrow)
 
+## Draft posts vs published posts
+
+- Posts in the `_drafts` directory will not be visible on the webpage. Useful for work in progress.
+- When ready to publish, move the markdown file of the post to the `_posts` directory which will make it visible on the webpage.
+
 ---
 
 ## Tips and advices
